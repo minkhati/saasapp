@@ -1,4 +1,5 @@
 class Users::RegistrationsController < Devise::RegistrationsController
+  
   before_action :select_plan, only: :new
   
   # Extend default Devise gem behavior so that users signing up with the Pro 
