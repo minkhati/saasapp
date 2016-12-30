@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
-
 # Use Puma as the app server
 gem 'puma', '3.4.0'
 # Use SCSS for stylesheets
@@ -29,15 +28,16 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use Twitter Bootstrap library for front-end UI and Layout
+# Use Twitter Bootsrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
-# Use font awesome sass gem for adding icons
+
+# Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
 # Use Hirb for better database table display in console
 gem 'hirb', '0.7.3'
 
-# Use devise for user authentication
+# Use Devise for user authentication
 gem 'devise', '4.2.0'
 
 # Use Stripe for payment processing
@@ -45,6 +45,9 @@ gem 'stripe', '1.48.0'
 
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
+
+# Use Paperclip for image upload
+gem 'paperclip', '4.3.6'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -69,5 +72,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 ruby '2.3.0'
